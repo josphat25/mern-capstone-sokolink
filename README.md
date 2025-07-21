@@ -43,6 +43,84 @@ Your project will be automatically submitted when you push to your GitHub Classr
 3. Deploy your application and add the live URL to your README.md
 4. Create a video demonstration and include the link in your README.md
 
+## Project Name: SokoLink – Smart Market Access for Small-Scale Farmers
+# Problem Statement:
+1.Small-scale farmers often struggle with:
+
+2.Lack of access to current market prices
+
+3.Middlemen exploitation
+
+4.Limited visibility to direct buyers or cooperatives
+
+5.Poor record-keeping and loss of income tracking
+
+##  Solution (Your App):
+A MERN stack platform that connects small-scale farmers to the marketplace directly.
+
+## Core Features:
+1.Live Market Prices: Real-time pricing data for common crops in local and nearby markets.
+
+2. Produce Listings: Farmers can list their crops with quantity, price, and location.
+
+3. Buyer-Farmer Connection: Buyers can filter by crop, location, and contact farmers directly.
+
+4. Sales Dashboard: Visualize income, volume sold, best-performing crops.
+
+5. Alerts System: Notify farmers of price spikes, weather events, or nearby bulk buyer interest.
+
+6. Multilingual Support: Kiswahili & English support for inclusivity.
+
+## SokoLink Project Mind Map
+
+sokoLink - Smart Market Access Platform
+|
+├── 1. User Management
+|    ├── Farmer Signup/Login
+|    ├── Buyer Signup/Login
+|    ├── Profile Management
+|
+├── 2. Produce Listings
+|    ├── Create/Edit/Delete Listings
+|    ├── Add Price, Quantity, Location, Images
+|    ├── Search & Filter by Crop, Region
+|
+├── 3. Live Market Prices
+|    ├── API Integration or Manual Data Input
+|    ├── Region-based Price Comparison
+|    ├── Historical Price Graphs
+|
+├── 4. Buyer-Farmer Interaction
+|    ├── Direct Messaging or Contact Info
+|    ├── Bulk Request Feature
+|    ├── Buyer Reviews
+|
+├── 5. Sales Tracking Dashboard
+|    ├── Monthly Earnings
+|    ├── Crop Performance
+|    ├── Visual Reports (Charts/Graphs)
+|
+├── 6. Alerts System
+|    ├── Price Spike Notifications
+|    ├── Weather Updates
+|    ├── New Buyer Listings Nearby
+|
+├── 7. Multilingual Support
+|    ├── Kiswahili ↔ English Toggle
+|
+├── 8. Admin Panel
+|    ├── Approve Listings
+|    ├── Monitor Platform Activity
+|    ├── Manage Users
+|
+└── 9. Deployment & CI/CD
+     ├── Backend: Render or Railway
+     ├── Frontend: Vercel or Netlify
+     ├── GitHub Actions CI/CD
+     ├── MongoDB Atlas for DB
+     ├── Monitoring: Sentry, Health Checks
+
+
 ## Resources
 
 - [MongoDB Documentation](https://docs.mongodb.com/)
