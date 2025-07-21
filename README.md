@@ -120,7 +120,104 @@ sokoLink - Smart Market Access Platform
      ├── MongoDB Atlas for DB
      ├── Monitoring: Sentry, Health Checks
 
+##  SMART Goals for SokoLink Capstone
+Goal	Description
+S - Specific	Build a MERN-based web application that connects small-scale farmers with local buyers and gives them access to live market prices and sales tracking tools.
+M - Measurable	Complete development of 6 core features (auth, listings, prices, messaging, dashboard, alerts) and deploy both frontend and backend by the end of Week 8.
+A - Achievable	Use existing tools (MongoDB Atlas, Vercel, Render, GitHub Actions) and learned skills (React, Express, Node.js, MongoDB, CI/CD) to complete all tasks.
+R - Relevant	Addresses a major pain point in agriculture—lack of market access—and empowers farmers through technology.
+T - Time-bound	Final deployed product (with CI/CD and documentation) ready in 4 weeks, with weekly milestones for progress tracking.
 
+## Tech Stack & Tools
+Component	          Tech/Tool
+Frontend	          React.js (Create React App / Vite)
+Backend	          Node.js v18+, Express.js
+Database	          MongoDB (Atlas or local)
+Package Manager	npm (or yarn)
+Version Control	Git & GitHub
+CI/CD	          GitHub Actions
+Frontend Hosting	Vercel (or Netlify)
+Backend Hosting	Render (or Railway/Heroku)
+Monitoring	     Sentry, UptimeRobot, Healthcheck
+
+## Project Features
+1. Authentication
+Farmers and Buyers can sign up/log in
+
+JWT-based authentication
+
+Role-based access (farmer, buyer, admin)
+
+2. Produce Listings
+Farmers add, update, and delete produce
+
+Buyers can search/filter listings
+
+Images uploaded via Cloudinary or local folder
+
+3. Live Market Prices
+Prices per crop by region
+
+Admin can update prices manually or via external API
+
+4. Buyer-Farmer Connection
+Buyers can send purchase interest
+
+Optional real-time chat (Socket.io or message requests)
+
+5. Sales Dashboard
+Track number of sales per crop
+
+Income statistics
+
+Graphs using Chart.js or Recharts
+
+6. Alerts
+Email alerts for price changes or buyer requests
+
+SMS/Push notifications (optional using Twilio or OneSignal)
+
+## Folder Structure
+/backend
+├── controllers/
+├── models/
+├── routes/
+├── config/
+├── middleware/
+├── server.js
+├── .env
+
+/frontend
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── context/
+│   ├── api/
+│   └── App.js
+├── .env
+
+## Deployment Plan
+Step	                  Tool/Platform
+Backend Deployment	   Render (with GitHub integration)
+Frontend Deployment	   Vercel (linked to GitHub repo)
+CI/CD	             GitHub Actions (run tests, build, deploy)
+Environment Variables  Render, Vercel (.env vars for API, DB)
+MongoDB Hosting	   MongoDB Atlas (Free Tier)
+Monitoring Tools	   Sentry, UptimeRobot
+
+## Environment Variables
+Add .env.example in both frontend and backend:
+# Backend
+PORT=5000
+MONGO_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/farmlink
+JWT_SECRET=your_jwt_secret
+CLOUDINARY_URL=...
+# Frontend
+REACT_APP_API_BASE_URL=https://your-backend-url.com/api
+
+
+
+ 
 ## Resources
 
 - [MongoDB Documentation](https://docs.mongodb.com/)
