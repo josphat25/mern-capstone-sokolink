@@ -215,6 +215,155 @@ CLOUDINARY_URL=...
 # Frontend
 REACT_APP_API_BASE_URL=https://your-backend-url.com/api
 
+# 🌾 FarmLink
+
+&#x20;&#x20;
+
+FarmLink is a MERN (MongoDB, Express, React, Node.js) stack application designed to empower small-scale farmers by connecting them with local markets, buyers, and real-time agricultural insights. Built with a clean UI, live market data, and modern authentication, FarmLink ensures farmers can list, sell, and track produce efficiently.
+
+## 🚀 Live Demo
+
+* 🌐 Frontend: [https://farmlink-frontend.vercel.app](https://farmlink-frontend.vercel.app)
+* 🔗 Backend API: [https://farm-backend-8xkh.onrender.com/api](https://farm-backend-8xkh.onrender.com/api)
+
+---
+
+## 📌 Features
+
+* ✅ Farmer and Buyer Registration/Login (JWT Authentication)
+* 📦 Post and View Agricultural Produce (Fruits, Vegetables, Grains)
+* 📈 Live Market Prices
+* 🛒 Connect with Potential Buyers
+* 📲 Responsive UI (Mobile/Desktop)
+* 🔒 Protected Routes and Role-Based Access
+* 🧾 Sales History and Tracking
+* ⚠️ Real-time Alerts and Updates
+* 🌐 RESTful API Integration
+
+---
+
+## 🖼️ Screenshots *(to add)*
+
+| Homepage | Produce Listings | Dashboard |
+| -------- | ---------------- | --------- |
+|          |                  |           |
+
+---
+
+## 🧠 Tech Stack
+
+### Frontend:
+
+* React 18
+* React Router DOM
+* Tailwind CSS
+* Axios
+* Vite
+
+### Backend:
+
+* Node.js + Express
+* MongoDB + Mongoose
+* JWT Authentication
+* CORS, dotenv, bcrypt, express-validator
+
+---
+
+## 🛠️ Installation
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/josphat25/mern-capstone-sokolink.git
+cd mern-capstone-sokolink
+```
+
+2. **Frontend Setup**
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+3. **Backend Setup**
+
+```bash
+cd backend
+npm install
+npm run dev
+```
+
+4. **Environment Variables**
+
+Create `.env` in the frontend folder:
+
+```
+VITE_API_URL=https://farm-backend-8xkh.onrender.com/api
+```
+
+Create `.env` in the backend folder:
+
+```
+PORT=5000
+MONGO_URI=your_mongo_db_uri
+JWT_SECRET=your_secret_key
+```
+
+---
+
+## 📁 Folder Structure (Frontend)
+
+```
+src/
+│
+├── assets/               # Images and media
+├── components/           # Reusable components
+├── context/              # Auth / Global state
+├── pages/                # Route pages (Home, Produce, Login)
+│   ├── produce/
+│   │   ├── fruits.jsx
+│   │   ├── grains.jsx
+│   │   └── vegetables.jsx
+│   └── produce.jsx
+├── App.jsx
+└── main.jsx
+```
+
+---
+
+## 🚀 Deployment
+
+* **Frontend**: Vercel
+* **Backend**: Render
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please fork the repository and open a pull request with clear commits.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 🙋‍♂️ Author
+
+**Josphat Ndungu**
+📧 [josphatmukuha24@gmail.com](mailto:josphatmukuha24@gmail.com)
+
+---
+
+## 📌 Acknowledgements
+
+* Dev Academy MERN Capstone Program
+* Farmers and Agritech advocates in Kenya
+
+
 
 
  
